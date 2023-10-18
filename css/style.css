@@ -237,13 +237,7 @@ figcaption p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
-}
-
-.guillemet_g {
-  position: absolute;
-  top: 0;
-  left: 0;
+  /* position: relative; */
 }
 
 /* .slides {
@@ -420,28 +414,60 @@ figcaption p {
   padding-top: 15rem;
   /* padding-bottom: 2rem; */
   color: #fff;
+  position: relative;
 }
 
-.replique p {
+/* Placez "icon_guillemets_1" à gauche */
+.guillemet_g {
+  position: absolute;
+  left: -2rem; /* Ajustez la valeur en fonction de la position souhaitée */
+  top: 50%; /* Centrez verticalement */
+  transform: translateY(-50%);
+}
+
+/* Placez "icon_guillemets_2" en bas à droite */
+.guillemet_d {
+  position: absolute;
+  right: -2rem; /* Ajustez la valeur en fonction de la position souhaitée */
+  bottom: -3rem; /* Ajustez la valeur en fonction de la position souhaitée */
+}
+
+.txt_replique {
   width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
   font-size: 18px;
   font-family: var(--SG-font);
   font-weight: bold;
   color: #ffffff;
 }
 
-.replique p:nth-child(2) {
+.txt_replique p:nth-child(1) {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.txt_replique p:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 12px;
   font-family: var(--SG-font);
   width: 13rem;
   color: #c4c4c4;
+  align-items: center;
 }
 
 .target {
   display: flex;
+  position: relative;
 }
+
 
 .target #target {
   display: flex;
@@ -465,9 +491,10 @@ figcaption p {
 footer {
   background-color: #000;
   color: #fff;
-  padding: 5rem;
+  padding-top: 15rem;
   text-align: center;
   margin: auto;
+  padding-bottom: 5rem;
 }
 
 /* .footer-carousel {
@@ -493,35 +520,39 @@ footer {
   font-size: 12px;
 }
 
-.footer-icon  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: row; 
+.footer_txt img {
+  margin-right: 10px;
 }
 
-.footer-icon ul  {
+
+.footer-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: row; 
+  flex-direction: row;
+}
+
+.footer-icon ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
   padding-left: 1rem;
 }
-
 
 .footer-icon ul li {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: row; 
+  flex-direction: row;
   padding: 1rem;
 }
 
-.footer-icon ul:nth-child(1) li  {
- padding: 0.5rem;
+.footer-icon ul:nth-child(1) li {
+  padding: 0.5rem;
 }
 
 /* @media screen and (max-width: 768px) {
