@@ -239,8 +239,8 @@ figcaption p {
   flex-direction: column;
   margin-right: 5rem;
   margin-left: 5rem;
-  border-right: 2px solid #c4c4c4c4;
-  border-left: 2px solid #c4c4c4c4;
+  border-right: 3px solid #eddefb40;
+  border-left: 3px solid #eddefb40;
 }
 
 /* .slides {
@@ -497,8 +497,8 @@ footer {
 }
 
 .footer {
-  border-left: 2px solid #c4c4c4c4;
-  border-right: 2px solid #c4c4c4c4;
+  border-left: 3px solid #eddefb40;
+  border-right: 3px solid #eddefb40;
   color: #fff;
   padding-top: 15rem;
   text-align: center;
