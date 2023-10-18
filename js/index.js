@@ -1,18 +1,42 @@
-const nextButton = document.querySelector('.next');
-const prevButton = document.querySelector('.prev');
-const slides = document.querySelector('.slides');
-let slideIndex = 0;
+// /* Caroussel landing */
 
-nextButton.addEventListener('click', () => {
-  slideIndex++;
-  updateCarousel();
-});
+// const nextButton = document.querySelector('.next');
+// const prevButton = document.querySelector('.prev');
+// const landingSlides  = document.querySelector('.slides');
+// let landingSlideIndex = 0;
 
-prevButton.addEventListener('click', () => {
-  slideIndex--;
-  updateCarousel();
-});
+// nextButton.addEventListener('click', () => {
+//   landingSlideIndex++;
+//   updateCarousel();
+// });
 
-function updateCarousel() {
-  slides.style.transform = `translateX(-${slideIndex * 100}%)`;
-}
+// prevButton.addEventListener('click', () => {
+//   landingSlideIndex--;
+//   updateCarousel();
+// });
+
+// function updateCarousel() {
+//   landingSlides .style.transform = `translateX(-${landingSlideIndex * 100}%)`;
+// }
+
+// /* Caroussel footer */
+
+// const fNextButton = document.querySelector('.next_Btn');
+// const fPrevButton = document.querySelector('.prev_Btn');
+// const fSlides = document.querySelector('#footerCarousel .slides');
+// let fSlideIndex = 0;
+
+// fNextButton.addEventListener('click', () => {
+//   fSlideIndex++;
+//   fUpdateCarousel();
+// });
+
+// fPrevButton.addEventListener('click', () => {
+//   fSlideIndex--;
+//   fUpdateCarousel();
+// });
+
+// function fUpdateCarousel() {
+//   fSlides.style.transform = `translateX(-${fSlideIndex * 100}%)`;
+// }
+

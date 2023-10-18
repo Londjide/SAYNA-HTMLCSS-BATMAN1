@@ -254,9 +254,186 @@
       </div>
     </article>
 
+    <div class="contact">
+      <h1>PRENONS CONTACT</h1>
+
+      <div class="infos">
+        <div class="mail">
+          <label for="mail"> ADRESSE EMAIL</label>
+          <input
+            type="email"
+            id="mail"
+            name="Adresse email"
+            placeholder="Adresse email"
+          />
+        </div>
+
+        <div class="newsletter">
+          <h2>NEWSLETTER</h2>
+          <label for="newsletter">
+            En cochant cette case vous acceptez de recevoir l’actualité
+            concernant les aventures de Batman :
+          </label>
+
+          <input type="checkbox" id="newsletter" name="Newsletter" />
+        </div>
+
+        <div class="frequence">
+          <select name="frequency" id="frequency">
+            <!-- ajouter une phrase d'indication -->
+            <option value="" selected disabled>
+              Choisissez la fréquence à laquelle vous souhaitez recevoir votre
+              newsletter
+            </option>
+
+            <option value="weekly">Une fois par semaine</option>
+            <option value="biweekly">
+              Une fois tous les 2 semaines (2 fois par mois)
+            </option>
+            <option value="monthly">Une fois par mois</option>
+            <option value="trimonthly">Une fois tous les trois mois</option>
+            <option value="sixmonthly">Une fois tous les six mois</option>
+          </select>
+        </div>
+
+        <div class="newsletterChoice">
+          <p>Souhaitez-vous recevoir des news</p>
+
+          <div class="button-group">
+            <label class="custom-button">
+              <input type="checkbox" name="newsletter" value="oui" />
+              Oui
+            </label>
+
+            <label class="custom-button">
+              <input type="checkbox" name="newsletter" value="non" />
+              Non
+            </label>
+          </div>
+        </div>
+
+        <div class="msg">
+          <label for="msg">MESSAGE</label>
+          <textarea
+            id="msg"
+            name="msg"
+            rows="1"
+            cols="33"
+            placeholder="Laisser un message pour la communauté"
+          ></textarea>
+        </div>
+
+        <div class="submit">
+          <input type="submit" value="Confirmer" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Carrousel contenant un texte et un sous-texte sur chaque diapositive -->
+    <div class="carousel" id="footerCarousel">
+      
+        <img src="assets\Logos\icon_guillemets_1.png" class="guillemet_g"alt="" />
+      
+
+     
+        <img src="assets\Logos\icon_guillemets_2.png" class="guillemet_d"alt="" />
+      
+      <!-- <div class="slides">
+          <div class="footer-carousel-slide"></div> -->
+
+      <!-- <div class="footer-carousel-slide">
+            <h3>MENTIONS LÉGALES</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              quibusdam voluptate quas, voluptatem, quos maxime ipsam, at
+              accusantium fugit itaque voluptatum est? Molestiae, ratione
+              voluptatum. Nihil, voluptates. Quis, facilis ratione!
+            </p>
+          </div> -->
+
+      <!-- <div class="footer-carousel-slide">
+            <h3>CONTACT</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              quibusdam voluptate quas, voluptatem, quos maxime ipsam, at
+              accusantium fugit itaque voluptatum est? Molestiae, ratione
+              voluptatum. Nihil, voluptates. Quis, facilis ratione!
+            </p>
+          </div> -->
+      <!-- </div>
+      </div> -->
+
+      <div class="replique">
+        <p>
+          La seule façon raisonnable de vivre en ce bas monde, c'est en dehors
+          des règles.
+        </p>
+        <p>The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)</p>
+      </div>
+
+      <div class="target">
+        <div id="target"></div>
+        <div id="target"></div>
+        <div id="target"></div>
+        <div id="target"></div>
+        <div id="target"></div>
+        <div id="target"></div>
+        <div id="target"></div>
+        <div id="target"></div>
+        <div id="target"></div>
+      </div>
+
+      <!-- <div class="footer-logo">
+        <img src="assets\Logos\logo_bat_footer.png" alt="" />
+        </div> -->
+    </div>
+
     <footer>
-      <p>Footer</p>
+      <div class="footer_txt">
+        <img src="assets\Logos\icon_WB.png" alt="" />
+        <p>
+          <!-- //ajoute un espace -->
+
+          
+          Ce projet respecte l’univers cinématographique des films Batman
+          récents. Version Nolan & Snyder & Reeves
+        </p>
+      </div>
+
+      <div class="footer-icon">
+        <ul>
+          <li><a href="">
+              <img src="assets\Logos\logo_sayna_white.png" alt="" />
+            </a></li>
+          </a></li>
+          <li><a href="">
+              <img src="assets\Logos\icon_x.png" alt="" />
+            </a></li>
+          </a></li>
+          <li><a href="">
+              <img src="assets\Logos\icon_DC.png" alt="" />
+            </a></li>
+          </a></li>
+          
+        </ul>
+        <ul>
+          <li><a href="">
+                      <img src="assets\Logos\icon_facebook.png" alt="" />
+                    </a></li>
+                  </a></li>
+                  <li><a href="">
+                      <img src="assets\Logos\icon_ig.png" alt="" />
+                    </a></li>
+                  </a></li>
+                  <li><a href="">
+                      <img src="assets\Logos\icon_tw.png" alt="" />
+                    </a></li>
+                  </a></li>
+        </ul>
+
+      </div>
     </footer>
+
     <script src="js/index.js"></script>
   </body>
 </html>
