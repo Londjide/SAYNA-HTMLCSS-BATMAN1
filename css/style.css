@@ -237,7 +237,10 @@ figcaption p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* position: relative; */
+  margin-right: 5rem;
+  margin-left: 5rem;
+  border-right: 2px solid #c4c4c4c4;
+  border-left: 2px solid #c4c4c4c4;
 }
 
 /* .slides {
@@ -468,7 +471,6 @@ figcaption p {
   position: relative;
 }
 
-
 .target #target {
   display: flex;
   justify-content: center;
@@ -490,6 +492,13 @@ figcaption p {
 
 footer {
   background-color: #000;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.footer {
+  border-left: 2px solid #c4c4c4c4;
+  border-right: 2px solid #c4c4c4c4;
   color: #fff;
   padding-top: 15rem;
   text-align: center;
@@ -523,7 +532,6 @@ footer {
 .footer_txt img {
   margin-right: 10px;
 }
-
 
 .footer-icon {
   display: flex;
